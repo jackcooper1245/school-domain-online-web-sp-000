@@ -25,7 +25,7 @@ def add_student(name, grade)
 end
 
 def grade(grade)
-  puts @roster[grade]
+   @roster.each do
 end
 
 end
