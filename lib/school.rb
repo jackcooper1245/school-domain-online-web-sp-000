@@ -24,4 +24,7 @@ def add_student(name, grade)
   end
 end
 
+
+def grade(grade)
+  puts grade
 end
