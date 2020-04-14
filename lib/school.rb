@@ -29,6 +29,7 @@ def grade(grade)
    @roster.each do |grade_level, student|
       grade_level == grade
        graded_roster << student
+     end
    end
    graded_roster.flatten
 end
