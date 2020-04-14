@@ -12,7 +12,7 @@ def roster(roster)
 end
 
 def roster
-  @roster = {}
+  @roster
 end
 
 
