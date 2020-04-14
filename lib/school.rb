@@ -25,7 +25,11 @@ def add_student(name, grade)
 end
 
 def grade(grade)
-   @roster.each do
+   @roster.each do |grade, student|
+     if grade == grade
+       puts student
+     end
+   end
 end
 
 end
