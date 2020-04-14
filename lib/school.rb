@@ -25,11 +25,13 @@ def add_student(name, grade)
 end
 
 def grade(grade)
+  graded_roster = []
    @roster.each do |grade, student|
      if grade == grade
-       puts student.flatten.compact
+       graded_roster << student
      end
    end
+   graded_roster
 end
 
 end
