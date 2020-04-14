@@ -34,6 +34,9 @@ def grade(grade)
    graded_roster.flatten
 end
 
-def sort()
+def sort
+  @roster[grade][name].sort
 end
+
+
 end
