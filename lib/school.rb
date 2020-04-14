@@ -27,7 +27,7 @@ end
 def grade(grade)
    @roster.each do |grade, student|
      if grade == grade
-       puts student
+       puts student.flatten
      end
    end
 end
