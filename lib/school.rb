@@ -31,7 +31,7 @@ def grade(grade)
        graded_roster << student
      end
    end
-   graded_roster
+   graded_roster.flatten
 end
 
 end
