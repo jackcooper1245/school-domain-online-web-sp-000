@@ -26,8 +26,8 @@ end
 
 def grade(grade)
   graded_roster = []
-   @roster.each do |grade, student|
-     if grade == grade
+   @roster.each do |grade_level, student|
+     if grade_level == grade
        graded_roster << student
      end
    end
