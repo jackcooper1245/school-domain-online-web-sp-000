@@ -35,9 +35,11 @@ def grade(grade)
 end
 
 def sort
+  nu_array = []
   @roster.sort_by do |grade, name|
-    grade.flatten
+    nu_array << grade
   end
+  nu_array.flatten
 end
 
 
