@@ -37,6 +37,7 @@ end
 def sort
   @roster.sort_by do |grade, name|
     grade
+  end
 end
 
 
