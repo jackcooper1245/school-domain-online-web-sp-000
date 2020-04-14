@@ -37,8 +37,9 @@ end
 def sort
   nu_array = []
   @roster.sort_by do |grade, name|
-     grade
+     nu_array[grade] = name.sort
   end
+  nu_array
 end
 
 
