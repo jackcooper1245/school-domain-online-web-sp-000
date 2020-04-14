@@ -27,7 +27,7 @@ end
 def grade(grade)
   graded_roster = []
    @roster.each do |grade_level, student|
-      grade_level == grade
+      if grade_level == grade
        graded_roster << student
      end
    end
@@ -35,5 +35,5 @@ def grade(grade)
 end
 
 def sort()
-
+end
 end
