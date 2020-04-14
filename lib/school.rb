@@ -35,11 +35,11 @@ def grade(grade)
 end
 
 def sort
-  nu_array = []
+  nu_hash = {}
   @roster.sort_by do |grade, name|
-     nu_array[grade] = name.sort
+     nu_hash[grade] = name.sort
   end
-  nu_array
+  nu_hash
 end
 
 
